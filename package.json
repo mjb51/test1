@@ -1,0 +1,22 @@
+{
+  "name": "phantasie-remake",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reverse-engineering tools and a modern remake engine for SSI's Phantasie (1985), for personal use with your own disk images.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "disk": "tsx tools/disk.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}

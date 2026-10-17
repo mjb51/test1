@@ -1,0 +1,10 @@
+{
+  "format": "RDOS 2.1",
+  "files": [
+    { "name": "RDOS 2.1 TEST SYSTEM", "type": "B", "locked": false, "deleted": false, "address": 4096, "length": 6656, "sha256": "47017d6ab0a2b86f441857e810cb09688568899943d5a8ed4400d3da42b7f85e" },
+    { "name": "GAME LOADER", "type": "B", "locked": false, "deleted": false, "address": 2048, "length": 700, "sha256": "7e24ef3d72d00dd59f57b603208e5be40e005ed6d556acc16fd278038447efd2" },
+    { "name": "MONSTER DATA", "type": "B", "locked": false, "deleted": false, "address": 16384, "length": 5137, "sha256": "1ee9025e3d9f93052fd5cb58e5f2a9e2aefbe50421d026840e3ca766e80969ee" },
+    { "name": "INTRO TEXT", "type": "T", "locked": false, "deleted": false, "address": 0, "length": 21, "sha256": "782a3648051ec90386ed390a1fb5d2ae7bc64c250f82dd91253fedebad77e750" },
+    { "name": "<NOT IN USE>            ", "type": " ", "locked": false, "deleted": true }
+  ]
+}

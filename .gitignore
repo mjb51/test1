@@ -1,0 +1,20 @@
+node_modules/
+
+# This repository is public.  Original game files, and anything taken from
+# them (extracted files, memory dumps, disassembly listings, text dumps),
+# stay on your machine.  Put them in these folders:
+original/
+extracted/
+work/
+
+# Disk image formats, anywhere in the tree...
+*.dsk
+*.do
+*.po
+*.nib
+*.woz
+*.2mg
+*.d13
+# ...except our own synthetic test disks.
+!test/fixtures/*.dsk
+!test/fixtures/*.po

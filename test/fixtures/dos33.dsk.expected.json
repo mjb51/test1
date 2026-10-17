@@ -1,0 +1,11 @@
+{
+  "format": "DOS 3.3",
+  "freeSectors": 379,
+  "files": [
+    { "name": "HELLO", "type": "B", "locked": false, "deleted": false, "address": 8192, "length": 300, "sha256": "a8134be468fc47bd99d576094d7e0c91e79d4ee00bba25d22119282524b5a921" },
+    { "name": "BIG FILE", "type": "B", "locked": false, "deleted": false, "address": 16384, "length": 35000, "sha256": "0d63c1600f09a743d51b8175df29655613f8985f72a97c644a5857a3f2f9a00b" },
+    { "name": "NOTES", "type": "T", "locked": false, "deleted": false, "address": 0, "length": 256, "sha256": "0dd9a23c831700d3f0eccbdea986dc97474e86f37e4d9f0ce6e751cd9e1e872c" },
+    { "name": "LOCKED/DATA 1", "type": "B", "locked": true, "deleted": false, "address": 24576, "length": 1000, "sha256": "18249577807d9788926ea4deef2c0c38ddd276c1419f2e5fcb76b7cee66a0b09" },
+    { "name": "GONE", "type": "B", "locked": false, "deleted": true }
+  ]
+}
